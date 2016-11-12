@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="byglsys:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="byglsys.war">
+      <element id="artifact" artifact-name="byglsys:war exploded" />
+    </root>
+  </artifact>
+</component>

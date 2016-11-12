@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - byglsys@localhost" uuid="05e4319f-2147-4ecb-92bf-bf5133af56e1">
+    <database-info product="MySQL" version="5.7.12-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="byglsys">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="1211tech"/>
+      <schema id="3" name="hy"/>
+      <schema id="4" name="information_schema"/>
+      <schema id="5" name="job"/>
+      <schema id="6" name="mysql"/>
+      <schema id="7" name="performance_schema"/>
+      <schema id="8" name="sakila"/>
+      <schema id="9" name="sdutoa"/>
+      <schema id="10" name="sys"/>
+      <schema id="11" name="temp_test"/>
+      <schema id="12" name="users"/>
+      <schema id="13" name="world"/>
+      <table id="14" parent="1" name="bs_student"/>
+      <column id="15" parent="14" name="uid">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="16" parent="14" name="academyid">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="17" parent="14" name="deptid">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="18" parent="14" name="employeenum">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="19" parent="14" name="stdname">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="20" parent="14" name="password">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="21" parent="14" name="sex">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="22" parent="14" name="major">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="23" parent="14" name="rankid">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="24" parent="14" name="kind">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="25" parent="14" name="phone">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="26" parent="14" name="email">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="27" parent="14" name="research">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="28" parent="14" name="comments">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <key id="29" parent="14" name="PRIMARY">
+        <columns>uid</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

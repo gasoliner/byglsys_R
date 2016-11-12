@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.opencil.bs.mapper.TeacherMapper">
+  <!--<sql id="query_user_where">-->
+      <!--<if test="teacherEx!=null">-->
+        <!--<if test="teacherEx.employeenum!=null and teacherEx.employeenum!=''">-->
+          <!---->
+        <!--</if>-->
+      <!--</if>-->
+
+  <!--</sql>-->
+  <select id="queryUserList" parameterType="cn.opencil.bs.vo.TeacherVo"
+          resultType="cn.opencil.bs.po.TeacherEx">
+    SELECT * FROM bs_student WHERE employeenum=#{teacherEx.employeenum} AND password=#{teacherEx.password}
+  </select>
+</mapper>
